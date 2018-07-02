@@ -12,7 +12,7 @@ This application allows you to find any Git user by entering the nickname in the
 
 - Extrapolate files
 
- -Access the folder from command line
+- Access the folder from command line
 
 - digit:
 	npm start
