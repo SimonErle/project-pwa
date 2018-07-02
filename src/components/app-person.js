@@ -7,7 +7,7 @@ class AppPerson extends Component{
       <table className="table-person">
         <tr>
           <td className="td-name">{this.props.name}</td>
-          <td><img className='td-avatar' src={this.props.avatar} alt='images' /></td>
+          <td><img className='td-avatar' src={this.props.avatar} /></td>
         </tr>
         <tr className="td-descr">{this.props.descr}</tr>
       </table>

@@ -1,5 +1,6 @@
 .table-person{
-  width: 100%;
+  width: 95%;
+  height:65%;
   margin-left: 10px;
 }
 
@@ -11,8 +12,10 @@
 }
 
 .td-avatar{
+  text-align: right;
   border-radius: 50%;
-  height:60px;
+  height:15%;
+  margin-right: 5px;
 }
 
 .td-descr {

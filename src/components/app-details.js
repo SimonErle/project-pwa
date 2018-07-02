@@ -3,22 +3,22 @@ import './app-details.css';
 
 class AppDetails extends Component{
   render() {
-    let company;
-    if ((this.props.company !== null) && (this.props.company !== ''))  {
-      company = this.props.company;
+    let information = '';
 
-      if ((this.props.address !== null) && (this.props.address !== '')) {
-        company += ' ~ ' + this.props.address;
-      }
+    if ((this.props.company !== null) && (this.props.company !== ''))  {
+      information = this.props.company + ' ~ ';
     }
-    else {
-      if ((this.props.address !== null) && (this.props.address !== '')) {
-        company = this.props.address;
-      }
+    if ((this.props.address !== null) && (this.props.address !== '')) {
+      information += this.props.address + ' ~ ';
     }
+    if ((this.props.site !== null) && (this.props.site !== '')) {
+      information += this.props.site;
+    }
+    else { information = information.substring(0, information.length-2); }
+
     return (
         <div className='div-details'>
-        <p>{company}</p>
+        <p>{information}</p>
       </div>
     );
   }

@@ -24,7 +24,7 @@
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-.input-search{
+.input-search, .input-search-error {
   width: 90%;
   height: 50%;
   margin: 13px;
@@ -35,6 +35,11 @@
   background-color: #b3cce6;
   vertical-align: center;
 }
+.input-search-error{
+  color: #ff0000;
+  font-weight: bold;
+}
+
 hr {
   border-color: #cccccc;
   border-width: 0.3px;
