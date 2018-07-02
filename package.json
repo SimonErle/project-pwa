@@ -2,7 +2,7 @@
   "name": "projectpwa",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://www.simoneerle.com/projectpwa",
+  "homepage": "https://www.simoneerle.com/personal-projects/projectpwa",
   "dependencies": {
     "axios": "^0.18.0",
     "curl": "^0.1.4",

@@ -1,20 +1,20 @@
 .table-person{
   width: 95%;
-  height:65%;
+  height:95px;
   margin-left: 10px;
 }
 
 .td-name {
   text-align: left;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 200%;
   width:80%;
 }
 
 .td-avatar{
   text-align: right;
   border-radius: 50%;
-  height:15%;
+  height:65px;
   margin-right: 5px;
 }
 
