@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  width:100% auto;
+  height:200px;
+  border-radius: 5px;
+  border-width: 0px;
+  /* margin-left: 2px;
+  margin-top: 2px;
+  margin-right: 2px; */
+  margin: 5px;
+  box-shadow: 2px 2px 1px #595959;
+}
+.App-input{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #ecf2f9;
+  width: 100%;
+  height: 30%;
+}
+.App-details{
+  background-color: #e6e6e6;
+  width: 100%;
+  height: 70%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.input-search{
+  width: 90%;
+  height: 50%;
+  margin: 13px;
+  border-radius: 3px;
+  border-width: 0px;
+  text-indent: 10px;
+  text-overflow: ellipsis;
+  background-color: #b3cce6;
+  vertical-align: center;
+}
+hr {
+  border-color: #cccccc;
+  border-width: 0.3px;
+  border-style: solid;
+}
