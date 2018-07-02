@@ -19,7 +19,9 @@ This application allows you to find any Git user by entering the nickname in the
 
 - The application starts automatically
 
-[Demo here](https://www.simoneerle.com/personal-projects/projectpwa)
+## Demo
+
+[Click Here](https://www.simoneerle.com/personal-projects/projectpwa)
 
 ## Built With
 
